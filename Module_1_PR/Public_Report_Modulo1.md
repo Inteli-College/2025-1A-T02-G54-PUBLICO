@@ -1,11 +1,13 @@
-
-# Nautic.AI - Public Development Report
+# Nautic.AI - Public Development Report (v2)
 
 ## Executive Summary
 
-Nautic.AI is an innovative autonomous maritime rescue solution designed to significantly reduce response times in emergency situations. This report summarizes the development work completed during the current module.
+Nautic.AI is an innovative autonomous maritime rescue solution designed to significantly reduce response times in emergency situations. This second version of the report summarizes the development work completed during the current module, highlighting advances in hardware prototyping, documentation, and software structuring.
 
-The module was dedicated to hardware prototyping in SolidWorks, business development, and software structuring for the autonomous model.
+**Key updates in this version:**
+- Improved documentation and organization of SolidWorks and Arduino files, now clearly marked as backup and referenced in the project structure.
+- Enhanced MVP documentation, including images of the turbine and motor, and a more detailed technical development plan.
+- Updated progress metrics and technical architecture based on the latest sprint.
 
 ## 1. Blue Ocean Strategy
 
@@ -307,7 +309,19 @@ graph TD
 ## 7. Development Status
 
 ### 7.1. Progress Overview
-The diagram shows our current progress:
+
+**Documentation and File Organization:**  
+- All SolidWorks and Arduino files are now clearly marked as backup only, with README files in their respective directories.  
+- MVP documentation has been expanded, including images of the turbine and motor, and a more detailed breakdown of the prototype phases.
+
+**MVP and Prototype:**  
+- The MVP documentation now includes a dedicated section for the turbine and motor, with images and technical details.
+- The physical prototype is progressing, with the buoy, turbine, and motor models available and referenced in the documentation.
+
+**Software and AI:**  
+- The software stack and AI training pipeline are documented, with progress in simulation and initial real-world tests.
+
+**Progress Metrics:**
 - **Hardware**: 40% complete
 - **Software**: 35% complete
 - **Integration**: 0% complete
@@ -355,9 +369,10 @@ Nautic.AI represents a significant innovation in the maritime rescue sector, com
 3. Increased safety for rescue teams
 4. Scalable and sustainable business model
 
+**Next Steps:**  
 The next module will be crucial for project validation and implementation, focusing on:
 - Completion of technical development
 - System integration
-- MVP validation
+- MVP validation (with all key components, including turbine and motor, documented and tested)
 - Regulatory certification and compliance
-- Implementation of pilots with strategic partners
+- Implementation of pilots with strategic partners 
