@@ -2,20 +2,22 @@
 
 ## Executive Summary
 
-Nautic.AI is an innovative autonomous maritime rescue solution designed to significantly reduce response times in emergency situations. This second version of the report summarizes the development work completed during the current module, highlighting advances in hardware prototyping, documentation, and software structuring.
+Nautic.AI is an innovative maritime rescue solution designed to drastically reduce emergency response times. This second report version summarizes the main development achievements of the current module, with a focus on hardware prototyping, technical documentation, and software architecture. The buoy is guided by remote control via transmitter, ensuring precise and responsive operation during rescue missions.
 
 **Key updates in this version:**
 - Improved documentation and organization of SolidWorks and Arduino files, now clearly marked as backup and referenced in the project structure.
-- Enhanced MVP documentation, including images of the turbine and motor, and a more detailed technical development plan.
-- Updated progress metrics and technical architecture based on the latest sprint.
+- Enhanced MVP documentation, including images and technical details of the turbine and motor, plus a more robust technical development plan.
+- Updated progress metrics and technical architecture reflecting the latest sprint.
+
+---
 
 ## 1. Blue Ocean Strategy
 
-The diagram below shows our innovation strategy, divided into four quadrants:
-- **Create**: New unique features of Nautic.AI
-- **Increase**: Aspects we are improving
+The diagram below illustrates our innovation strategy, divided into four quadrants:
+- **Create**: New features introduced by Nautic.AI (e.g., remote-controlled rescue buoy)
+- **Increase**: Aspects we are enhancing
 - **Reduce**: Elements we are minimizing
-- **Eliminate**: Features we removed from the traditional model
+- **Eliminate**: Features removed from traditional models
 
 ```mermaid
 graph TD
@@ -24,7 +26,7 @@ graph TD
     classDef reduce fill:#FFC107,stroke:#FFA000,stroke-width:2px,color:black;
     classDef eliminate fill:#F44336,stroke:#D32F2F,stroke-width:2px,color:white;
     
-    C1[Autonomous Rescue]:::create
+    C1[Remote-Controlled Rescue]:::create
     C2[24/7 Monitoring]:::create
     I1[Response Time]:::increase
     I2[Safety]:::increase
@@ -43,13 +45,15 @@ graph TD
     R2 --> E1
 ```
 
+---
+
 ## 2. Risk Matrix
 
 This diagram classifies the main project risks into four levels:
-- **Critical**: Risks requiring immediate attention
-- **High Risk**: Requiring constant monitoring
-- **Medium Risk**: Needing mitigation plans
-- **Low Risk**: Can be managed normally
+- **Critical**: Requires immediate action
+- **High**: Needs constant monitoring
+- **Medium**: Needs mitigation plans
+- **Low**: Can be managed routinely
 
 ```mermaid
 graph TD
@@ -59,46 +63,32 @@ graph TD
     classDef low fill:#42A5F5,stroke:#1976D2,stroke-width:2px,color:white;
     classDef axis fill:#ECEFF1,stroke:#90A4AE,stroke-width:2px,color:black;
     
-    %% Matrix Structure
     subgraph Matrix
         direction TB
         Impact[Impact]:::axis
         Probability[Probability]:::axis
-        
-        %% Impact Levels
         Impact --- CriticalI[Critical]:::axis
         Impact --- HighI[High]:::axis
         Impact --- MediumI[Medium]:::axis
         Impact --- LowI[Low]:::axis
-        
-        %% Probability Levels
         Probability --- CriticalP[Critical]:::axis
         Probability --- HighP[High]:::axis
         Probability --- MediumP[Medium]:::axis
         Probability --- LowP[Low]:::axis
     end
     
-    %% Risk Items
     subgraph Risks
         direction TB
-        %% Critical Risks
         R1[Sensor Failure<br>High Impact<br>High Probability]:::critical
         R2[Power Issues<br>Critical Impact<br>Medium Probability]:::critical
-        
-        %% High Risks
         R3[Software Bugs<br>High Impact<br>Medium Probability]:::high
         R4[Regulatory Delays<br>High Impact<br>Medium Probability]:::high
-        
-        %% Medium Risks
         R5[Market Adoption<br>Medium Impact<br>High Probability]:::medium
         R6[Competition<br>Medium Impact<br>Medium Probability]:::medium
-        
-        %% Low Risks
         R7[Weather Conditions<br>Low Impact<br>High Probability]:::low
         R8[Training Requirements<br>Low Impact<br>Medium Probability]:::low
     end
     
-    %% Connections
     CriticalI --- R1
     CriticalI --- R2
     HighI --- R3
@@ -118,9 +108,11 @@ graph TD
     MediumP --- R8
 ```
 
+---
+
 ## 3. Business Model Canvas
 
-The diagram below represents the nine essential elements of our business model:
+The diagram below summarizes the nine key elements of our business model:
 - **Partnerships**: Who helps us deliver value
 - **Activities**: What we do to create value
 - **Resources**: What we need to operate
@@ -158,7 +150,7 @@ graph LR
         
         V1[Response Time]:::value --- V2[Cost Reduction]:::value
         V2 --- V3[Safety]:::value
-        V3 --- V4[Automation]:::value
+        V3 --- V4[Remote Operation]:::value
         
         R1[Hardware Sales]:::finance --- R2[Subscriptions]:::finance
         R2 --- R3[Maintenance]:::finance
@@ -166,9 +158,11 @@ graph LR
     end
 ```
 
+---
+
 ## 4. SWOT Analysis
 
-This diagram shows our analysis of strengths, weaknesses, opportunities, and threats:
+This diagram presents our strengths, weaknesses, opportunities, and threats:
 - **Strengths**: What we do well
 - **Weaknesses**: What we need to improve
 - **Opportunities**: What we can leverage
@@ -197,14 +191,17 @@ graph LR
     end
 ```
 
+---
+
 ## 5. Business Plan
 
 ### 5.1. Market Overview
-The diagram shows how the market is segmented:
-- **Maritime Rescue**: 40% of the market
-- **Coastal Safety**: 30% of the market
-- **Emergency Teams**: 20% of the market
-- **Beach Management**: 10% of the market
+
+Market segmentation:
+- **Maritime Rescue**: 40%
+- **Coastal Safety**: 30%
+- **Emergency Teams**: 20%
+- **Beach Management**: 10%
 
 ```mermaid
 graph LR
@@ -222,7 +219,8 @@ graph LR
 ```
 
 ### 5.2. Financial Projections
-The Gantt chart shows our development timeline:
+
+Development timeline:
 - **Phase 1**: Prototype and testing
 - **Phase 2**: Production and deployment
 
@@ -239,10 +237,11 @@ gantt
 ```
 
 ### 5.3. Revenue Streams
-The diagram shows how revenue is distributed:
-- **Hardware Sales**: 60% of revenue
-- **Subscriptions**: 30% of revenue
-- **Maintenance**: 10% of revenue
+
+Revenue distribution:
+- **Hardware Sales**: 60%
+- **Subscriptions**: 30%
+- **Maintenance**: 10%
 
 ```mermaid
 graph LR
@@ -257,12 +256,14 @@ graph LR
     end
 ```
 
+---
+
 ## 6. Technical Architecture
 
-The diagram below shows how system components communicate:
-- **Edge Device**: The autonomous hardware with sensors and local processing
-- **Cloud Processing**: Where data is processed and decisions are made
-- **Control Center**: Where humans monitor and can intervene if necessary
+System component communication:
+- **Edge Device**: Hardware with sensors and local processing, guided by remote control
+- **Cloud Processing**: Data processing and decision-making
+- **Control Center**: Human monitoring and intervention
 
 ```mermaid
 graph TD
@@ -270,26 +271,20 @@ graph TD
     classDef cloud fill:#009688,stroke:#00796B,stroke-width:2px,color:white;
     classDef control fill:#FF9800,stroke:#F57C00,stroke-width:2px,color:white;
     
-    %% Main Components
     Edge[Edge Device]:::edge
     Cloud[Cloud Processing]:::cloud
     Control[Control Center]:::control
     
-    %% Main Connections
     Edge <-->|Data| Cloud
     Cloud <-->|Control| Edge
     Cloud <-->|Analytics| Control
     Control <-->|Commands| Cloud
     
-    %% Edge Components
     Sensors[Sensors]:::edge
-    AI[AI Processing]:::edge
-    Nav[Navigation]:::edge
+    Nav[Remote Navigation]:::edge
     
-    Sensors -->|Input| AI
-    AI -->|Control| Nav
+    Sensors -->|Input| Nav
     
-    %% Cloud Components
     Storage[Data Storage]:::cloud
     Models[AI Models]:::cloud
     Engine[Decision Engine]:::cloud
@@ -297,7 +292,6 @@ graph TD
     Storage -->|Processing| Models
     Models -->|Results| Engine
     
-    %% Control Components
     Monitor[Monitoring]:::control
     Oversight[Human Oversight]:::control
     Response[Emergency Response]:::control
@@ -306,20 +300,22 @@ graph TD
     Oversight -->|Actions| Response
 ```
 
+---
+
 ## 7. Development Status
 
 ### 7.1. Progress Overview
 
 **Documentation and File Organization:**  
 - All SolidWorks and Arduino files are now clearly marked as backup only, with README files in their respective directories.  
-- MVP documentation has been expanded, including images of the turbine and motor, and a more detailed breakdown of the prototype phases.
+- MVP documentation expanded, including images and technical details of the turbine and motor, and a more detailed prototype breakdown.
 
 **MVP and Prototype:**  
-- The MVP documentation now includes a dedicated section for the turbine and motor, with images and technical details.
-- The physical prototype is progressing, with the buoy, turbine, and motor models available and referenced in the documentation.
+- Dedicated section for turbine and motor, with images and technical details.
+- Physical prototype progressing: buoy, turbine, and motor models available and referenced in documentation.
 
 **Software and AI:**  
-- The software stack and AI training pipeline are documented, with progress in simulation and initial real-world tests.
+- Software stack and AI training pipeline documented, with progress in simulation and initial real-world tests.
 
 **Progress Metrics:**
 - **Hardware**: 40% complete
@@ -353,18 +349,20 @@ gantt
     Hardware    :2025-03-10, 90d
     Software    :2025-04-01, 120d
     section Testing
-    Integration :2025-05-30, 60d
-    Validation  :2025-06-06, 60d
+    Integration :2025-10-01, 31d
+    Validation  :2025-11-01, 30d
     section Deployment
-    Pilot      :2025-10-11, 90d
-    Scale      :2025-12-01, 90d
+    Pilot      :2025-12-01, 90d
+    Scale      :2026-03-01, 90d
 ```
+
+---
 
 ## 8. Conclusion
 
-Nautic.AI represents a significant innovation in the maritime rescue sector, combining advanced technology with a sustainable business model. The current development has established a solid foundation for future success, focusing on:
+Nautic.AI is a breakthrough in maritime rescue, combining advanced technology with a sustainable business model. The current development phase has established a strong foundation for future success, focusing on:
 
-1. Technological innovation in autonomous rescue
+1. Technological innovation in remote-controlled rescue
 2. Significant reduction in operational costs
 3. Increased safety for rescue teams
 4. Scalable and sustainable business model
@@ -375,4 +373,6 @@ The next module will be crucial for project validation and implementation, focus
 - System integration
 - MVP validation (with all key components, including turbine and motor, documented and tested)
 - Regulatory certification and compliance
-- Implementation of pilots with strategic partners 
+- Implementation of pilots with strategic partners
+
+--- 
