@@ -220,20 +220,22 @@ graph LR
 
 ### 5.2. Financial Projections
 
-Development timeline:
-- **Phase 1**: Prototype and testing
-- **Phase 2**: Production and deployment
+Development timeline (current status: prototyping):
+- **Phase 1**: Prototyping (in progress)
+- **Phase 2**: Testing (planned)
+- **Phase 3**: Production and deployment (planned)
 
 ```mermaid
 gantt
     title Development Timeline
     dateFormat  YYYY-MM-DD
     section Phase 1
-    Prototype    :2025-03-01, 90d
-    Testing      :2025-05-30, 60d
+    Prototyping    :active, 2025-03-01, 120d
     section Phase 2
-    Production   :2025-08-01, 90d
-    Deployment   :2025-10-01, 60d
+    Testing        :2025-07-01, 60d
+    section Phase 3
+    Production     :2025-09-01, 90d
+    Deployment     :2025-12-01, 60d
 ```
 
 ### 5.3. Revenue Streams
@@ -331,29 +333,29 @@ graph LR
     subgraph Development Progress
         direction LR
         A[Hardware<br>40%]:::hardware --- B[Software<br>35%]:::software
-        B --- C[Integration<br>0%]:::integration
+        B --- C[Integration<br>20%]:::integration
     end
 ```
 
 ### 7.2. Timeline
-The Gantt chart shows our detailed schedule:
-- **Development**: Hardware and software
-- **Testing**: Integration and validation
-- **Deployment**: Pilot and scale
+A Gantt chart below shows our current schedule. The project is still in the prototyping phase; testing and deployment are planned for the future:
+- **Prototyping**: Hardware and software (in progress)
+- **Testing**: Integration and validation (planned)
+- **Deployment**: Pilot and scale (planned)
 
 ```mermaid
 gantt
     title Project Timeline
     dateFormat  YYYY-MM-DD
-    section Development
-    Hardware    :2025-03-10, 90d
-    Software    :2025-04-01, 120d
+    section Prototyping
+    Hardware    :active, 2025-03-10, 120d
+    Software    :active, 2025-04-01, 120d
     section Testing
-    Integration :2025-10-01, 31d
-    Validation  :2025-11-01, 30d
+    Integration :2025-08-01, 45d
+    Validation  :2025-09-15, 30d
     section Deployment
-    Pilot      :2025-12-01, 90d
-    Scale      :2026-03-01, 90d
+    Pilot      :2025-11-01, 90d
+    Scale      :2026-02-01, 90d
 ```
 
 ---
