@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-Nautic.AI is an innovative maritime rescue solution designed to drastically reduce emergency response times. This second report version summarizes the main development achievements of the current module, with a focus on hardware prototyping, technical documentation, and software architecture. The buoy is guided by remote control via transmitter, ensuring precise and responsive operation during rescue missions.
+Nautic.AI is an innovative maritime rescue solution designed to drastically reduce emergency response times. This second report version summarizes the main development achievements of the current module, with a focus on hardware prototyping,  documentation, and software architecture. The buoy is guided by remote control via transmitter, ensuring precise and responsive operation during rescue missions.
 
 **Key updates in this version:**
 - Improved documentation and organization of SolidWorks and Arduino files, now clearly marked as backup and referenced in the project structure.
@@ -314,13 +314,13 @@ graph TD
 - Dedicated section for turbine and motor, with images and technical details.
 - Physical prototype progressing: buoy, turbine, and motor models available and referenced in documentation.
 
-**Software and AI:**  
-- Software stack and AI training pipeline documented, with progress in simulation and initial real-world tests.
+**Softwar:**  
+- Software stack and  pipeline documented, with progress in simulation and initial real-world tests.
 
 **Progress Metrics:**
 - **Hardware**: 40% complete
 - **Software**: 35% complete
-- **Integration**: 0% complete
+- **Integration**: 20% complete
 
 ```mermaid
 graph LR
