@@ -16,9 +16,9 @@ A turbina aquática subnado já é um produto existente e funcional. Sistema con
 
 ## 2. Mercado
 
-- **Global**: Mercado bilionário em crescimento
-- **Brasil**: Segundo maior mercado de turismo da América Latina
-- **Segmentos**: Esportes aquáticos, mergulho, turismo, resgate, Marinha
+- **Global**: Mercado bilionário em crescimento.
+- **Brasil**: Segundo maior mercado de turismo da América Latina.
+- **Segmentos**: Esportes aquáticos, mergulho, turismo, resgate, Marinha.
 - **Vantagem**: Preços acessíveis vs. importados, suporte nacional.
 
 ---
@@ -26,45 +26,45 @@ A turbina aquática subnado já é um produto existente e funcional. Sistema con
 ## 3. Modelo de Negócio
 
 - **Hardware**: Venda da turbina.
-- **Assinatura**: Serviços mensais de suporte e manutenção
-- **Crescimento**: Expansão gradual ao longo dos anos
-- **Receita**: Crescimento sustentável e lucrativo
+- **Assinatura**: Serviços mensais de suporte e manutenção.
+- **Crescimento**: Expansão gradual ao longo dos anos.
+- **Receita**: Crescimento sustentável e lucrativo.
 
 ---
 
 ## 4. Viabilidade Financeira
 
-- **Investimento**: Investimento inicial necessário para expansão
-- **Retorno**: Taxa interna de retorno atrativa, payback rápido
-- **EBITDA**: Margens crescentes ao longo dos anos
+- **Investimento**: Investimento inicial necessário para expansão.
+- **Retorno**: Taxa interna de retorno atrativa, payback rápido.
+- **EBITDA**: Margens crescentes ao longo dos anos.
 
 ---
 
 ## 5. Status
 
-- **Atual**: Produto funcional com controle sem fio
-- **Próximos**: Testes de campo, certificações (ISO 9001, IEC 61508, IP68), manufatura, apresentação para investidores
+- **Atual**: Produto funcional com controle sem fio.
+- **Próximos**: Testes de campo, certificações (ISO 9001, IEC 61508, IP68), manufatura, apresentação para investidores com o objetivo de conseguir os primeiros investimentos.
 
 ---
 
 ## 6. Riscos
 
-- **Mercado**: Engajamento regulatório, inovação contínua
+- **Mercado**: Engajamento regulatório, inovação contínua.
 
 ---
 
 ## 7. Impacto
 
-- **Social**: Segurança aquática, acessibilidade, empregos
-- **Ambiental**: Energia elétrica, design reciclável, redução de emissões
+- **Social**: Segurança aquática, acessibilidade, empregos.
+- **Ambiental**: Energia elétrica, design reciclável, redução de emissões.
 
 ---
 
 ## 8. Estratégia
 
-- **4 Fases**: Piloto → Lançamento → Expansão 
-- **Canais**: E-commerce, distribuidores, parcerias B2B
-- **Marketing**: Digital, influenciadores, feiras, demonstrações
+- **4 Fases**: Piloto → Lançamento → Expansão.
+- **Canais**: E-commerce, distribuidores, parcerias B2B.
+- **Marketing**: Digital, influenciadores, feiras, demonstrações.
 
 ---
 
